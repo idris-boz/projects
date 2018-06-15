@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 
 namespace WindowsFormsApp1
 {
-    class Class1
+    public class Class1
     {
-        [NUnit.Framework.Test]
+        public Class1()
+        {
+        }
+
+        [TestCase]
         public void A()
         {
             int x;
